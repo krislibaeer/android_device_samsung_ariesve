@@ -48,7 +48,7 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 
 # Compiler
-TARGET_GCC_VERSION_EXP := 4.8
+#TARGET_GCC_VERSION_EXP := 4.8
 
 # Screens dimension
 TARGET_SCREEN_HEIGHT := 800
@@ -58,7 +58,7 @@ TARGET_SCREEN_WIDTH := 480
 BOARD_KERNEL_BASE := 0x00400000
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_SOURCE := kernel/samsung/msm7x30/
-TARGET_KERNEL_CONFIG := ariesve_oc_exuv_vhm_defconfig
+TARGET_KERNEL_CONFIG := ariesve_defconfig
 
 # WiFi
 BOARD_HAVE_SAMSUNG_WIFI          := true
