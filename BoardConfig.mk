@@ -58,7 +58,7 @@ TARGET_SCREEN_WIDTH := 480
 BOARD_KERNEL_BASE := 0x00400000
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_SOURCE := kernel/samsung/msm7x30/
-TARGET_KERNEL_CONFIG := ariesve_defconfig
+TARGET_KERNEL_CONFIG := ariesve_oc_exuv_vhm_defconfig
 
 # WiFi
 BOARD_HAVE_SAMSUNG_WIFI          := true
